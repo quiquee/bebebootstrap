@@ -30,18 +30,35 @@
    border-radius: 20px;
 }
 
-ul,li {
+ul.menu {
+    padding: 10px 0;
+}
+
+.menu li {
+   padding: 10px 15px;
+}
+
+.block-classified ul {
+   padding: 0;
+}
+
+.block-classified li {
+   padding: 10px 15px;
+}
+
+.block-classified ul, .block-classified li {
     position: relative;
     list-style: none;
     display: block;
-    padding: 10px 15px; 
+}
+
+.block-classified li a {
+   position: relative;
+   display: block;
+   padding: 10px 15px;
 }
 
 .block-classified li a:hover {
    background-color: #eee;
    text-decoration: none;
-   paadding: 10px 15px;
-   list-style: none;
-   position:relative;
-   display:block;
 }
