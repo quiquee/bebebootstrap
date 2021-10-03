@@ -3,6 +3,10 @@
  * Great
  */
 
+body {
+  font-size: 14px;
+}
+
 /* https://codepen.io/ericrasch/pen/zjDBx */
 .form-select {
    background: url(/drupal/files/15xvbd5.png) no-repeat 96% 0;
@@ -45,3 +49,40 @@ ul,li {
    position:relative;
    display:block;
 }
+
+/* $Id: forum-style.css,v 1.13 2007/06/25 14:00:00 Dublin Drupaller Exp $ */
+/* Forum list style */
+/* Please note that you maybe inheriting styles from the modules/forum/forum.css style sheet */
+
+/* the main Forum table */
+#forum table {width:100%; border:1px solid #eaeaea;}
+#forum td { padding: .6em .6em .6em .6em;}
+#forum .odd {background:#ffffff;color:#808080;}
+#forum .even {background:#f1f1f1;color:#808080;}
+/* end of main Forum table styles */
+
+/* the container styles */
+#forum .container {background-color:black; color:#fff; font-weight:normal; font-size:1.1em ;}
+#forum .container a {color:#fff;font-weight:bold;}
+#forum .container .name {float:left;margin:0em; padding:5px 12px; font-size:1.6em;}
+#forum .container .description {float:left; padding-top:4px;color:#fff;}
+/* end of container styles */
+
+/* the subject, topics, number of posts and last reply header styles */
+#forum td.f-subject, #forum td.f-topics, #forum td.f-posts, #forum td.f-last-reply{background-color:#eaeaea;height: 1.5em;font-weight:bold;}
+/* end of subject, topics, number of posts and last reply header styles */
+
+
+/* forum listing styles  */
+#forum td.forum {margin: 0em; padding: .9em;}
+#forum td.forum div {margin: 0em; padding: 0em;}
+#forum .forum .name a {color:#454545;font-size: 1.2em ; }
+#forum .forum .description {color:#454545;font-size: 1.1em ;}
+#forum .topics {border-left:1px solid #eaeaea;text-align:center;font-weight:normal;font-size: 14px ;}
+#forum .last-reply {border-left:1px solid #eaeaea; font-weight:normal; padding:0 6px;}
+#forum .post_date {border-left:1px solid #eaeaea;position:relative;top:-3px;text-align:right;}
+#forum .posts {border-left:1px solid #eaeaea;text-align:center;font-weight:normal; font-size:14px ;}
+/* end of forum listing styles  */
+
+/* end of forum list style */
+
