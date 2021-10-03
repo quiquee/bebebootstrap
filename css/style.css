@@ -34,37 +34,20 @@ body {
    border-radius: 20px;
 }
 
-ul.menu {
-    padding: 10px 0;
-}
-
-.menu li {
-   padding: 10px 15px;
-}
-
-.block-classified ul {
-   padding: 0;
-}
-
-.block-classified li {
-   padding: 10px 15px;
-}
-
-.block-classified ul, .block-classified li {
+ul,li {
     position: relative;
     list-style: none;
     display: block;
-}
-
-.block-classified li a {
-   position: relative;
-   display: block;
-   padding: 10px 15px;
+    padding: 10px 15px; 
 }
 
 .block-classified li a:hover {
    background-color: #eee;
    text-decoration: none;
+   paadding: 10px 15px;
+   list-style: none;
+   position:relative;
+   display:block;
 }
 
 /* $Id: forum-style.css,v 1.13 2007/06/25 14:00:00 Dublin Drupaller Exp $ */
